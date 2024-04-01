@@ -166,5 +166,5 @@ async def handle_image():
 
 if __name__ == "__main__":
     loop = asyncio.get_event_loop()
-    loop.create_task(app.run(debug=True,host="192.168.175.19", port=3001))
+    loop.create_task(app.run(debug=True, port=3001))
     loop.run_forever()
